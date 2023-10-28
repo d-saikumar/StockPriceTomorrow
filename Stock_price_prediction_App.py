@@ -182,6 +182,11 @@ def main():
         Root Mean Squared Error (RMSE): RMSE is like MAE but gives more weight to larger prediction errors. It's a measure of how spread out those errors are, taking both small and large errors into account.
     
         In both cases, lower values are better, indicating more accurate predictions.
+        
+
+        NOTE:
+        This project is intended for EDUCATIONAL PURPOSE and should "NOT BE USED FOR MAKING FINANCIAL DECISIONS".
+        
         """
     )
     
