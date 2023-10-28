@@ -47,7 +47,7 @@ def itc(selected_stock):
     ])
 
     model.compile(loss="mean_squared_error", optimizer="adam")
-    model.fit(X_train, y_train, epochs=1, batch_size=1)
+    model.fit(X_train, y_train, epochs=5, batch_size=1)
 
     # Make predictions on the training data
     train_predictions = model.predict(X_train)
