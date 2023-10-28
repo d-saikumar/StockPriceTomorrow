@@ -132,6 +132,7 @@ def main():
     st.title("Stock Price Prediction for the following day")
     st.write("")
     st.write("")
+    st.text("Select the Stock from the drop down menu on the Left Side Panel")
     st.text("Pls hold for sometime, as we are predicting the Stock price, \nbased on the historical data(from 2018).")
     st.write("")
     
@@ -184,8 +185,9 @@ def main():
         In both cases, lower values are better, indicating more accurate predictions.
         
 
-        NOTE:
-        This project is intended for EDUCATIONAL PURPOSE and should "NOT BE USED FOR MAKING FINANCIAL DECISIONS".
+        DESCLAIMER:
+        
+        This project is intended for "EDUCATIONAL PURPOSE" and should "NOT BE USED FOR MAKING FINANCIAL DECISIONS".
         
         """
     )
